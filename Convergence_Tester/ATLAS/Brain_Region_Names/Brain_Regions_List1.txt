@@ -1,0 +1,116 @@
+Brain VOIs Based on Maximum Probabilty Atlas: N30R83 Brain Structures 			
+	
+% %--------------------------------------------------------------------------------------------------------------------------
+Frontal Lobe	VoiName(Region)	
+% %--------------------------------------------------------------------------------------------------------------------------
+	1	FL_mid_fr_G_l	Frontal Lobe Middle Front Gyrus (Left)
+	2	FL_mid_fr_G_r	Frontal Lobe Middle Front Gyrus (Right)
+	3	FL_precen_G_l	Frontal Lobe Precentral Gyrus (Left)
+	4	FL_precen_G_r	Frontal Lobe Precentral Gyrus (Right)
+	5	FL_strai_G_l	Frontal Lobe Straight Gyrus (Left)
+	6	FL_strai_G_r	Frontal Lobe Straight Gyrus (Right)
+	7	FL_OFC_AOG_l	Frontal Lobe Orbitofrontal Cortex Anterior Orbital Gyrus (Left)
+	8	FL_OFC_AOG_r	Frontal Lobe Orbitofrontal Cortex Anterior Orbital Gyrus (Right)
+	9	FL_inf_fr_G_l	Frontal Lobe Inferior Frontal Gyrus (Left)
+	10	FL_inf_fr_G_r	Frontal Lobe Inferior Frontal Gyrus (Right)
+	11	FL_sup_fr_G_l	Frontal Lobe Superior Frontal Gyrus (Left)
+	12	FL_sup_fr_G_r	Frontal Lobe Superior Frontal Gyrus (Right)
+	13	FL_OFC_MOG_l	Frontal Lobe Orbitofrontal Gyrus Medial Orbital Gyrus (Left)
+	14	FL_OFC_MOG_r	Frontal Lobe Orbitofrontal Gyrus Medial Orbital Gyrus (Right)
+	15	FL_OFC_LOG_l	Frontal Lobe Orbitofrontal Gyrus Lateral Orbital Gyrus (Left)
+	16	FL_OFC_LOG_r	Frontal Lobe Orbitofrontal Gyrus Lateral Orbital Gyrus (Right)
+	17	FL_OFC_POG_l	Frontal Lobe Orbitofrontal Gyrus Posterior Orbital Gyrus (Left)
+	18	FL_OFC_POG_r	Frontal Lobe Orbitofrontal Gyrus Posterior Orbital Gyrus (Right)
+	19	Subgen_antCing_l	Subgenual Anterior Cingulate Gyrus (Left)
+	20	Subgen_antCing_r	Subgenual Anterior Cingulate Gyrus (Right)
+	21	Subcall_area_l	Subcallosal Area (Left)
+	22	Subcall_area_r	Subcallosal Area (Right)
+	23	Presubgen_antCing_l	Pre-subgenual Anterior Cingulate Gyrus (Left)
+	24	Presubgen_antCing_r	Pre-subgenual Anterior Cingulate Gyrus (Right)
+% %--------------------------------------------------------------------------------------------------------------------------
+% %	Temporal Lobe	
+% %--------------------------------------------------------------------------------------------------------------------------
+	25	Hippocampus_r	Hippocampus (Right)
+	26	Hippocampus_l	Hippocampus (Left)
+	27	Amygdala_r	Amygdala (Right)
+	28	Amygdala_l	Amygdala (Left)
+	29	Ant_TL_med_r	Anterior Temporal Lobe, Medial Part (Right)
+	30	Ant_TL_med_l	Anterior Temporal Lobe, Medial Part (Left)
+	31	Ant_TL_inf_lat_r	Anterior Temporal Lobe Inferior, Lateral Part (Right)
+	32	Ant_TL_inf_lat_l	Anterior Temporal Lobe Inferior, Lateral Part (Left)
+	33	G_paraH_amb_r	Parahippocampal and Ambient Gyri (Right)
+	34	G_paraH_amb_l	Parahippocampal and Ambient Gyri (Left)
+	35	G_sup_temp_post_r	Superior Temporal Gyrus, Posterior Part (Right)
+	36	G_sup_temp_post_l	Superior Temporal Gyrus, Posterior Part (Left)
+	37	G_tem_midin_r	Middle and Inferior Temporal Gyrus (Right)
+	38	G_tem_midin_l	Middle and Inferior Temporal Gyrus (Left)
+	39	G_fus_r	Fusiform Gyrus (Right)
+	40	G_fus_l	Fusiform Gyrus (Left)
+	41	Post_TL_l	Posterior Temporal Lobe (Left)
+	42	Post_TL_r	Posterior Temporal Lobe (Right)
+	43	G_sup_temp_ant_l	Superior Temporal Gyrus, Anterior Part (Left)
+	44	G_sup_temp_ant_r	Superior Temporal Gyrus, Anterior Part (Right)
+% %--------------------------------------------------------------------------------------------------------------------------
+% %	Parietal Lobe	
+% %--------------------------------------------------------------------------------------------------------------------------
+	45	PL_postce_G_l	Parietal Lobe Postcentral Gyrus (Left)
+	46	PL_postce_G_r	Parietal Lobe Postcentral Gyrus (Right)
+	47	PL_sup_pa_G_l	Parietal Lobe Superior Parietal Gyrus (Left)
+	48	PL_sup_pa_G_r	Parietal Lobe Superior Parietal Gyrus (Right)
+	49	PL_rest_l	Parietal Lobe Inferiolateral Remainder of Parietal Lobe (Left)
+	50	PL_rest_r	Parietal Lobe Inferiolateral Remainder of Parietal Lobe (Right)
+% %--------------------------------------------------------------------------------------------------------------------------
+% %	Occipital Lobe
+% %--------------------------------------------------------------------------------------------------------------------------	
+	51	OL_rest_lat_l	Occipital Lobe Lateral Remainder of Occipital Lobe (Left)
+	52	OL_rest_lat_r	Occipital Lobe Lateral Remainder of Occipital Lobe (Right)
+	53	OL_ling_G_l	Occipital Lobe Lingual Gyrus (Left)
+	54	OL_ling_G_r	Occipital Lobe Lingual Gyrus (Right)
+	55	OL_cuneus_l	Occipital Lobe Cuneus (Left)
+	56	OL_cuneus_r	Occipital Lobe Cuneus (Right)
+% %--------------------------------------------------------------------------------------------------------------------------
+% %	Central Structures	
+% %--------------------------------------------------------------------------------------------------------------------------
+	57	CaudateNucl_l	Caudate Nucleus (Left)
+	58	CaudateNucl_r	Caudate Nucleus (Right)
+	59	NuclAccumb_l	Nucleus Accumbens (Left)
+	60	NuclAccumb_r	Nucleus Accumbens (Right)
+	61	Putamen_l	Putamen (Left)
+	62	Putamen_r	Putamen (Right)
+	63	Thalamus_l	Thalamus (Left)
+	64	Thalamus_r	Thalamus (Right)
+	65	Pallidum_l	Pallidum (Left)
+	66	Pallidum_r	Pallidum (Right)
+	67	Corp_Callosum	Corpus Callosum
+	68	S_nigra_l	Substantia Nigra (Left)
+	69	S_nigra_r	Substantia Nigra (Right)
+% %--------------------------------------------------------------------------------------------------------------------------
+% %	Insula and Cingulate Gyri
+% %--------------------------------------------------------------------------------------------------------------------------	
+	70	Insula_l	Insula (Left)
+	71	Insula_r	Insula (Right)
+	72	G_cing_ant_l	Cingulate Gyrus (Gyrus Cinguli), Anterior Part (Left)
+	73	G_cing_ant_r	Cingulate Gyrus (Gyrus Cinguli), Anterior Part (Right)
+	74	G_cing_post_l	Cingulate Gyrus (Gyrus Cinguli), Posterior Part (Left)
+	75	G_cing_post_r	Cingulate Gyrus (Gyrus Cinguli), Posterior Part (Right)
+% %--------------------------------------------------------------------------------------------------------------------------
+% %	Posterior Fossa	
+% %--------------------------------------------------------------------------------------------------------------------------
+	76	Cerebellum_r	Cerebellum (Right)
+	77	Cerebellum_l	Cerebellum (Left)
+	78	Brainstem	Brainstem
+% %--------------------------------------------------------------------------------------------------------------------------
+% %	Ventricles	
+	79	FrontalHorn_r	Ventricle, Frontal Horn (Right)
+	80	FrontalHorn_l	Ventricle, Frontal Horn (Left)
+	81	TemporaHorn_r	Lateral Ventricle, Temporal Horn (Right)
+	82	TemporaHorn_l	Lateral Ventricle, Temporal Horn (Left)
+	83	ThirdVentricl	Third Ventricle
+	84	White_matter_l	White Matter (Left)
+	85	White_matter_r	White Matter (Right)
+	86	CBW	
+% %--------------------------------------------------------------------------------------------------------------------------
+% %	Whole Brain
+% %--------------------------------------------------------------------------------------------------------------------------
+	87	Whole Brain
+% %--------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,162 @@
+cd (MFolder);
+M_dir=pwd;
+% %--------------------------------------------------------------------% %
+%                     MAC TO WINDOWS, from MAC
+% %--------------------------------------------------------------------% %
+if MacWindows_switch == 0
+    cd ..
+   [~,list] = system('find . -iname "*.m"');
+   list = textscan(list, '%s', 'Delimiter', '\n');
+    for i = 1 : length(list{1})
+        filePattern = fullfile(list{1}(i));
+        filePattern1 = char(filePattern);
+        filePattern2 = filePattern1(2:end);
+        filePattern3 = strcat(M_dir,filePattern2);
+
+        fprintf(1, 'Now reading %s\n', filePattern3);
+% %--------------------------------------------------------------------% %
+% This preserves \n, /, and ./
+% %--------------------------------------------------------------------% %        
+        fid  = fopen(filePattern1,'r');
+        f=fread(fid,'*char')';
+        fclose(fid);
+        f = regexprep(f,' \n ','filler01');
+        f = regexprep(f,' / ','filler02');
+        fid  = fopen(filePattern1,'w');
+        fprintf(fid,'%s',f);
+        fclose(fid);
+% %--------------------------------------------------------------------% %
+        fid  = fopen(filePattern1,'r');
+        f=fread(fid,'*char')';
+        fclose(fid);
+        f = regexprep(f,'/','\');
+        f = regexprep(f,'filler01',' \n ');
+        f = regexprep(f,'filler02',' / ');
+        fid  = fopen(filePattern1,'w');
+        fprintf(fid,'%s',f);
+        fclose(fid);
+    end
+end
+% %--------------------------------------------------------------------% %
+% %--------------------------------------------------------------------% %
+% %--------------------------------------------------------------------% %
+%                     WINDOWS TO MAC, from WINDOWS
+% %--------------------------------------------------------------------% %
+if MacWindows_switch == 1
+    cd ..
+    [~,list] = system('dir /S/B *.m');
+    list = textscan(list, '%s', 'Delimiter', '\n');
+    for i = 1 : length(list{1})
+        filePattern1 = fullfile(list{1}(i));
+        filePattern = char(filePattern1);
+
+        fprintf(1, 'Now reading %s\n', filePattern);
+% %--------------------------------------------------------------------% %
+% This preserves \n, /, and ./
+% %--------------------------------------------------------------------% %        
+        fid  = fopen(filePattern,'r');
+        f=fread(fid,'*char')';
+        fclose(fid);
+        f = regexprep(f,' \n ','filler01');
+        f = regexprep(f,' / ','filler02');
+        fid  = fopen(filePattern,'w');
+        fprintf(fid,'%s',f);
+        fclose(fid);
+% %--------------------------------------------------------------------% %
+        fid  = fopen(filePattern,'r');
+        f=fread(fid,'*char')';
+        fclose(fid);
+        f = regexprep(f,'\','/');
+        f = regexprep(f,'filler01',' \n ');
+        f = regexprep(f,'filler02',' / ');
+        fid  = fopen(filePattern,'w');
+        fprintf(fid,'%s',f);
+        fclose(fid);
+    end
+end
+% %--------------------------------------------------------------------% %
+% %--------------------------------------------------------------------% %
+% %--------------------------------------------------------------------% %
+% %--------------------------------------------------------------------% %
+% %--------------------------------------------------------------------% %
+% %--------------------------------------------------------------------% %
+% %--------------------------------------------------------------------% %
+%                     MAC TO WINDOWS, from WINDOWS
+% %--------------------------------------------------------------------% %
+if MacWindows_switch == 2
+    cd ..
+    [~,list] = system('dir /S/B *.m');
+    list = textscan(list, '%s', 'Delimiter', '\n');
+    for i = 1 : length(list{1})
+        filePattern1 = fullfile(list{1}(i));
+        filePattern = char(filePattern1);
+
+        fprintf(1, 'Now reading %s\n', filePattern);
+% %--------------------------------------------------------------------% %
+% This preserves \n, /, and ./
+% %--------------------------------------------------------------------% %        
+        fid  = fopen(filePattern,'r');
+        f=fread(fid,'*char')';
+        fclose(fid);
+        f = regexprep(f,' \n ','filler01');
+        f = regexprep(f,' / ','filler02');
+        fid  = fopen(filePattern,'w');
+        fprintf(fid,'%s',f);
+        fclose(fid);
+% %--------------------------------------------------------------------% %
+        fid  = fopen(filePattern,'r');
+        f=fread(fid,'*char')';
+        fclose(fid);
+        f = regexprep(f,'/','\');
+        f = regexprep(f,'filler01',' \n ');
+        f = regexprep(f,'filler02',' / ');
+        fid  = fopen(filePattern,'w');
+        fprintf(fid,'%s',f);
+        fclose(fid);
+    end
+end
+% %--------------------------------------------------------------------% %
+% %--------------------------------------------------------------------% %
+% %--------------------------------------------------------------------% %
+%                     WINDOWS TO MAC, from MAC
+% %--------------------------------------------------------------------% %
+if MacWindows_switch == 3
+    cd ..
+   [~,list] = system('find . -iname "*.m"');
+   list = textscan(list, '%s', 'Delimiter', '\n');
+    for i = 1 : length(list{1})
+        filePattern = fullfile(list{1}(i));
+        filePattern1 = char(filePattern);
+        filePattern2 = filePattern1(2:end);
+        filePattern3 = strcat(M_dir,filePattern2);
+
+        fprintf(1, 'Now reading %s\n', filePattern3);
+% %--------------------------------------------------------------------% %
+% This preserves \n, /, and ./
+% %--------------------------------------------------------------------% %        
+        fid  = fopen(filePattern1,'r');
+        f=fread(fid,'*char')';
+        fclose(fid);
+        f = regexprep(f,' \n ','filler01');
+        f = regexprep(f,' / ','filler02');
+        fid  = fopen(filePattern1,'w');
+        fprintf(fid,'%s',f);
+        fclose(fid);
+% %--------------------------------------------------------------------% %
+        fid  = fopen(filePattern1,'r');
+        f=fread(fid,'*char')';
+        fclose(fid);
+        f = regexprep(f,'\','/');
+        f = regexprep(f,'filler01',' \n ');
+        f = regexprep(f,'filler02',' / ');
+        fid  = fopen(filePattern1,'w');
+        fprintf(fid,'%s',f);
+        fclose(fid);
+    end
+end
+% %--------------------------------------------------------------------% %
+% %--------------------------------------------------------------------% %
+
+cd (cur_path)
+delete(FileName);
+cd (M_dir)

@@ -1,0 +1,76 @@
+Brain VOIs Based on Maximum Probabilty Atlas: N30R83 Brain Structures 			
+	
+% %--------------------------------------------------------------------------------------------------------------------------
+Frontal Lobe	VoiName(Region)	
+% %--------------------------------------------------------------------------------------------------------------------------
+	1	Frontal Lobe Middle Front Gyrus
+	2	Frontal Lobe Precentral Gyrus
+	3	Frontal Lobe Straight Gyrus
+	4	Frontal Lobe Orbitofrontal Cortex Anterior Orbital Gyrus
+	5	Frontal Lobe Inferior Frontal Gyrus
+	6	Frontal Lobe Superior Frontal Gyrus
+	7	Frontal Lobe Orbitofrontal Gyrus Medial Orbital Gyrus
+	8	Frontal Lobe Orbitofrontal Gyrus Lateral Orbital Gyrus
+	9	Frontal Lobe Orbitofrontal Gyrus Posterior Orbital Gyrus 
+	10	Subgenual Anterior Cingulate Gyrus
+	11	Subcallosal Area
+	12	Pre-subgenual Anterior Cingulate Gyrus
+% %--------------------------------------------------------------------------------------------------------------------------
+% %	Temporal Lobe	
+% %--------------------------------------------------------------------------------------------------------------------------
+	13	Hippocampus
+	14	Amygdala
+	15	Anterior Temporal Lobe, Medial Part
+	16	Anterior Temporal Lobe Inferior, Lateral Part
+	17	Parahippocampal and Ambient Gyri
+	18	Superior Temporal Gyrus, Posterior Part
+	19	Middle and Inferior Temporal Gyrus
+	20	Fusiform Gyrus
+	21	Posterior Temporal Lobe
+	22	Superior Temporal Gyrus, Anterior Part
+% %--------------------------------------------------------------------------------------------------------------------------
+% %	Parietal Lobe	
+% %--------------------------------------------------------------------------------------------------------------------------
+	23	Parietal Lobe Postcentral Gyrus
+	24	Parietal Lobe Superior Parietal Gyrus
+	25	Parietal Lobe Inferiolateral Remainder of Parietal Lobe
+% %--------------------------------------------------------------------------------------------------------------------------
+% %	Occipital Lobe
+% %--------------------------------------------------------------------------------------------------------------------------	
+	26	Occipital Lobe Lateral Remainder of Occipital Lobe
+	27	Occipital Lobe Lingual Gyrus
+	28	Occipital Lobe Cuneus
+% %--------------------------------------------------------------------------------------------------------------------------
+% %	Central Structures	
+% %--------------------------------------------------------------------------------------------------------------------------
+	29	Caudate Nucleus
+	30	Nucleus Accumbens
+	31	Putamen
+	32	Thalamus
+	33	Pallidum
+	34	Corpus Callosum
+	35	Substantia Nigra
+% %--------------------------------------------------------------------------------------------------------------------------
+% %	Insula and Cingulate Gyri
+% %--------------------------------------------------------------------------------------------------------------------------	
+	36	Insula
+	37	Cingulate Gyrus (Gyrus Cinguli), Anterior Part
+	38	Cingulate Gyrus (Gyrus Cinguli), Posterior Part
+% %--------------------------------------------------------------------------------------------------------------------------
+% %	Posterior Fossa	
+% %--------------------------------------------------------------------------------------------------------------------------
+	39	Cerebellum
+	40	Brainstem	
+% %--------------------------------------------------------------------------------------------------------------------------
+% %	Ventricles	
+% %--------------------------------------------------------------------------------------------------------------------------
+	41	Ventricle, Frontal Horn
+	42	Lateral Ventricle, Temporal Horn
+	43	Third Ventricle
+	44	White Matter
+	45	CBW
+% %--------------------------------------------------------------------------------------------------------------------------
+% %	Whole Brain
+% %--------------------------------------------------------------------------------------------------------------------------
+	46	Whole Brain
+% %--------------------------------------------------------------------------------------------------------------------------

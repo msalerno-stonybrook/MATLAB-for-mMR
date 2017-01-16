@@ -1,0 +1,77 @@
+!INTERFILE:=
+%comment:=created with JSRecon11 for mMR data
+!originating system:=2008
+%SMS-MI header name space:=image subheader
+%SMS-MI version number:=3.1
+
+!GENERAL DATA:=
+%sinogram data file:=
+%sinogram header file:=
+!name of data file:=Input-LM-00-umap-CT.v
+
+!GENERAL IMAGE DATA:=
+%study date (yyyy:mm:dd):=2015:08:10
+%study time (hh:mm:ss GMT+00:00):=19:46:00
+image data byte order:=LITTLEENDIAN
+%patient orientation:=HFS
+!PET data type:=image
+number format:=float
+!number of bytes per pixel:=4
+number of dimensions:=3
+matrix axis label[1]:=x
+matrix axis label[2]:=y
+matrix axis label[3]:=z
+matrix size[1]:=344
+matrix size[2]:=344
+matrix size[3]:=127
+scale factor (mm/pixel) [1]:=2.08626
+scale factor (mm/pixel) [2]:=2.08626
+scale factor (mm/pixel) [3]:=2.03125
+start horizontal bed position (mm):=-25
+end horizontal bed position (mm):=-25
+start vertical bed position (mm):=0.0
+number of energy windows:=0
+
+!IMAGE DATA DESCRIPTION:=
+!total number of data sets:=1
+!image duration (sec):=0
+!image relative start time (sec):=0
+
+%SUPPLEMENTARY ATTRIBUTES:=
+isotope gamma halflife (sec):=0.0
+
+%SUPPLEMENTARY ATTRIBUTES:=
+%reconstruction diameter (mm):=0.0
+quantification units:=1/cm
+%scanner quantification factor (Bq*s/ECAT counts):=1
+%decay correction:=none
+%decay correction reference date (yyyy:mm:dd):=1970:01:01
+%decay correction reference time (hh:mm:ss GMT+00:00):=00:00:00
+%number of reconstructed beds:=1
+%decay correction factor range[1]:={0,126,1}
+%scatter fraction range (%) [1]:={0,126,0}
+%acquisition start time range (sec) [1]:={0,126,0}
+%slice duration range (sec) [1]:={0,126,0}
+slice orientation:=Transverse
+method of reconstruction:=UW-OSEM
+number of iterations:=0
+%number of subsets:=0
+filter name:=unknown
+%xy-filter (mm):=0.0
+%z-filter (mm):=0.0
+%filter order:=0
+%image zoom:=1
+%x-offset (mm):=0.0
+%y-offset (mm):=0.0
+applied corrections:={measured attenuation correction}
+method of attenuation correction:=
+method of scatter correction:=
+%method of random correction:=dlyd
+%total uncorrected singles rate:=0
+%image slope:=1
+%image intercept:=0.0
+maximum pixel count:=0.10000
+minimum pixel count:=0.00000
+
+%SUPPLEMENTARY ATTRIBUTES:=
+%axial compression:=11
